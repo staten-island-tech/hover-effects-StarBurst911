@@ -1,0 +1,14 @@
+@import "_variables.scss";
+
+.btn-pink {
+    background-color: pink;
+    background-position: center;
+    font-size: 8rem;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.btn-pink:hover {
+    transform: skew(-10deg);
+    letter-spacing: 3rem;
+}

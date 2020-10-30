@@ -1,0 +1,14 @@
+@import "_variables.scss";
+
+.btn-yellow {
+    height: 20rem;
+    transition: all 0.3s;
+    border-radius: 50%;
+    background-color: yellow
+}
+
+.btn-yellow:hover {
+    border-radius: 0;
+    filter: sepia(100%);
+    transform: scale(1.3);
+}
